@@ -4,7 +4,7 @@
 An application used to create README's quickly and efficiently.
 
 ## Installation
-All of the packages are in the VSCode, you just need to open an integrated terminal, and run "npm i", and then "node index.js", then follow the prompts in the terminal.
+All of the packages are in the VSCode, you just need to open an integrated terminal, and run "npm i", and then "node index.js", then follow the prompts in the terminal. Clone the repository and run it in your terminal.
 
 ## Usage
 This can be used by everyone and anyone who needs to make a README.
