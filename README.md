@@ -1,23 +1,23 @@
-# asldknf
+# README Generator
 
 ## Description
-falsdknf;
+An application used to create README's quickly and efficiently.
 
 ## Installation
-fasdlnkf
+All of the packages are in the VSCode, you just need to open an integrated terminal, and run "npm i", and then "node index.js", then follow the prompts in the terminal. Clone the repository and run it in your terminal.
 
 ## Usage
-sdflnka;sd
+This can be used by everyone and anyone who needs to make a README.
 
 ## Credits
-fasodknf
+N/A other than the starter code.
 
 ## License
 This project is licensed under the MIT license.
 
 ## Email
-The creator's email is asldnf
+The creator's email is mwgoodwin2000@gmail.com.
 
 ## Github
-The creator's github is www.github.com/marcusgoodwin
+The creator's github is www.github.com/marcusgoodwin.
 
