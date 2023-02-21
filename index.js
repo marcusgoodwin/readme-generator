@@ -36,7 +36,18 @@ const questions = [
     name: 'license',
     message: 'Select a license for your project:',
     choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None']
-  }
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'Please enter your GitHub username.'
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Please enter your email address:',
+  },
+
 ];
 
 
@@ -50,7 +61,9 @@ inquirer.prompt(questions).then((answers) => {
     readme += `## Installation\n${answers.installation}\n\n`;
     readme += `## Usage\n${answers.usage}\n\n`;
     readme += `## Credits\n${answers.credits}\n\n`;
-    readme += `## License\nThis project is licensed under the ${answers.license} license.`;
+    readme += `## License\nThis project is licensed under the ${answers.license} license.\n\n`;
+    readme += `## Email\nThe creator's email is ${answers.email}\n\n`;
+    readme += `## Github\nThe creator's github is www.github.com/${answers.github}\n\n`;
   
     fs.writeFileSync('README.md', readme);
   });
